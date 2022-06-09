@@ -1,4 +1,5 @@
-from unicodedata import name
+# from typing_extensions import Self
+# from unicodedata import name
 
 
 class Account: 
@@ -12,3 +13,5 @@ class Account:
          return f"Dear {self.name} you have deposited amount{self.deposit}"
        def withdraw(self):
         return f"succesfully withraw amount of {self.withdraw}"  
+      
+      
